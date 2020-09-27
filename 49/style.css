@@ -1,0 +1,60 @@
+.images{
+    border: solid;
+}
+
+.images2{
+    border:solid
+}
+
+.item{
+    
+    
+    
+    background-color: lightpink;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.description{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: lightpink;
+}
+.images{
+    display: flex;
+ align-content: center;
+    background-color: lightpink;
+
+
+
+}
+.news{
+    display: flex;
+   justify-content: flex-end;
+    background-color:lightpink;
+}
+.images2{
+    display : flex;
+   align-content: center;
+    background-color:lightpink;
+}
+
+.description{
+    display : flex;
+    flex-grow: initial;
+    
+}
+
+.images:hover{
+    transform: scale(1.2)
+
+}
+.images2:hover{
+    transform:scale(1.2)
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color: red 
+}
